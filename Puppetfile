@@ -58,6 +58,33 @@ github "stdlib",      "4.7.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
 
+# My Optional/custom modules
+github 'atom',           '1.3.0'
+github 'caffeine',       '0.0.1'
+github 'chrome',         '1.2.0'
+github 'colloquy',       '1.0.0'
+github 'dropbox',        '1.4.1'
+github 'github_for_mac', '1.0.3'
+github 'gitx',           '1.2.0'
+github 'handbrake',      '1.0.1'
+github 'hipchat',        '1.1.3'
+github 'iterm2',         '1.2.2'
+github 'java',           '1.8.4'
+github 'onepassword',    '1.1.5'
+github 'osx',            '2.7.1'
+github 'packer',         '0.6.1'
+github 'property_list_key', '0.2.1',  :repo => 'glarizza/puppet-property_list_key'
+github 'sizeup',         '1.0.0'
+github 'skype',       '1.1.0'
+github 'spotify',        '1.0.2'
+github 'sublime_text_2', '1.1.0'
+github 'tunnelblick',    '1.0.7'
+github 'vagrant',        '3.3.4'
+mod    'vcsrepo',        '0.1.0',  :github_tarball => 'puppetlabs/puppetlabs-vcsrepo'
+github 'virtualbox',     '1.0.13'
+github 'vmware_fusion',  '1.2.0'
+
+
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 # github "elasticsearch", "2.8.0"
